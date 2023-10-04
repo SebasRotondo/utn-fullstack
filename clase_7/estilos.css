@@ -24,7 +24,7 @@ nav{
     padding: 0 20px;
 }
 .logo{
-    font-size: 24px;
+    font-size: 35px;
     font-weight: bold;
 }
 .menu{
@@ -49,6 +49,31 @@ nav{
         left:0;
         width: 100%;
         padding: 10px 0;
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.3s ease-in-out;
+    }
+    input[type="checkbox"] {
+        display: none;
+    }
+    input[type="checkbox"]:checked ~ .menu {
+        max-height: 300px; 
+    }
+    .menu-icon{
+        display: block;
+        color: #fff;
+        font-size: 24px;
+        cursor: pointer;
+    }
+}
+@media(min-width: 330px){
+    .menu{
+        display: flex;
+        position: absolute;
+        top: 60px;
+        right: 1.5rem;;
+        width: 40%;
+        padding: 10px ;
         max-height: 0;
         overflow: hidden;
         transition: max-height 0.3s ease-in-out;

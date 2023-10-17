@@ -1,0 +1,51 @@
+/* 
+function saludar () {
+    alert ("Hola");
+}
+
+saludar ()  */
+/* 
+
+function saludar (nombre) {
+    alert ("Hola" + " "  + nombre);
+}
+
+saludar ("Sebas")  */
+/* 
+function saludar (nombre, apellido, edad) {
+    alert ("Hola" + " "  + nombre +" " + apellido + " " + edad);
+}
+
+saludar ("Sebas", "Rotondo", 50) 
+ */
+
+/* 
+function getlargoNombre (nombre) {
+    return (nombre.length)
+}
+let nombrelargo = getlargoNombre ("Sebas")
+alert (nombrelargo) */
+
+/* 
+let encabezado = document.querySelector("h1");
+console.log (encabezado);
+console.log (encabezado.innerText);
+
+let texto = document.querySelector("#texto");
+console.log (texto);
+console.log (texto.innerHTML);
+
+let texto2 = document.querySelector(".texto2");
+console.log (texto2);
+console.log (texto2.innerText);
+
+ */
+
+
+
+
+
+ 
+
+
+

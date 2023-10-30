@@ -1,0 +1,16 @@
+body {
+    background-color: antiquewhite;
+}
+
+#titulo {
+    color: black
+}
+
+.subtitulo {
+    color: blue;
+}
+
+.lista {
+    background-color: rgb(206, 217, 213);
+}
+

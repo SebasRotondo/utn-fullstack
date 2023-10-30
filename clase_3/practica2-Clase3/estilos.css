@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;200;300;400;500;600&display=swap");
+
+/*>> Consigna:
+Incluir algunas de las propiedades vistas:
+- Texto: font-style, font-weight, font-size, font-family, text-align, line-height y 
+text-decoration.
+- Listas: list-style-type, list-style-position y/o list-style.
+- Fondos: background-color, background-image, background-repeat, 
+background-position y/o background-size.
+- Tipografía de Google Fonts.*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #1D5D9B;
+    font-family: 'Work Sans', sans-serif;
+}
+
+
+
+nav {
+    background-color: #75C2F6;
+    height: 5vh;
+    border-bottom: 2px solid black;
+    padding: 20px;
+
+}
+
+.menu {
+    list-style-type: none;
+    text-align: center;
+
+}
+
+.menu li {
+    display: inline-block;
+}
+
+.menu a {    
+    list-style-type: none;
+    text-decoration: none;
+    color: #1D5D9B;
+    font-weight: 1000;
+    font-size: 2rem;
+    padding: 5px;
+    margin: 20px;
+    box-shadow: 0 0 2px black;
+
+}
+
+h1 {
+    text-align: center;
+    color: whitesmoke;
+    padding: 10px;
+}
+
+.articulos {
+    margin: 10px;
+    border: 1px solid black;
+    background-color: #FBEEAC;
+
+}
+
+h3{
+    padding-left: 10px;
+}
+
+.articulos p {
+    text-align: left;
+    margin: 10px;
+
+
+}
+
+footer{
+    text-align: center;
+    font-weight: 1000;
+    font-size: 1.2rem;
+    height: 10vh;
+
+
+}
